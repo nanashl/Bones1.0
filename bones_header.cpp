@@ -1,4 +1,4 @@
-#include "header1.h"
+#include "bones_header.h"
 
 void InputDynamicArray(int** a, int& rows, int& cols)
 {
@@ -22,8 +22,8 @@ void OutputDynamicArray(int** a, int& rows, int& cols)
 int game_title(int pl)
 {
 	int pos;
-	cout << "\n\n\t\t\t\t --- Èãðà â êîñòè ---\n\n\t\t";
-	cout << "\n\t\t\t 1 - Áðîñèòü êîñòè                 2 - Âûõîä \n\n\t\t";
+	cout << "\n\n\t\t\t\t --- ÃˆÃ£Ã°Ã  Ã¢ ÃªÃ®Ã±Ã²Ã¨ ---\n\n\t\t";
+	cout << "\n\t\t\t 1 - ÃÃ°Ã®Ã±Ã¨Ã²Ã¼ ÃªÃ®Ã±Ã²Ã¨                 2 - Ã‚Ã»ÃµÃ®Ã¤ \n\n\t\t";
 	cin >> pos;
 	if (pos == 1)
 		return pos;
